@@ -1,3 +1,5 @@
+package com.example.e2e;
+
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.Filter;
 import io.restassured.filter.log.RequestLoggingFilter;

@@ -1,5 +1,6 @@
-package com.example.e2e;
+package com.example.e2e.folder1.subfolder1;
 
+import com.example.e2e.BaseConf;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Narrative;
 import net.thucydides.core.annotations.WithTag;
@@ -8,16 +9,19 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(SerenityRunner.class)
-@Narrative(text = {"Connect to database."})
+
 @WithTags({
-        @WithTag("database test")
+        @WithTag("database")
 })
 
-//todo Finish this blog: https://javabydeveloper.com/spring-boot-h2-in-memory-database-example/
 public class DatabaseConnectionTest extends BaseConf {
-
     @Test
     public void connect(){
+
+    }
+
+    @Test
+    public void connect2(){
 
     }
 }
